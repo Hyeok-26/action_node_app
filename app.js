@@ -13,6 +13,7 @@ app.get('/', (req, res) => {
   res.send(`
     <h1>Hello from this NodeJS app!</h1>
     <p>Try sending a request to /error and see what happens</p>
+    <p>하위우이ㅜ이이우이ㅜ이ㅜ이!!!</p>
   `);
 });
 
