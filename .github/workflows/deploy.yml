@@ -46,7 +46,7 @@ jobs:
 
       - name: Remote install & restart with PM2
         run: |
-          ssh -tt -o StrictHostKeyChecking=no ec2-useri@13.209.155.172 << 'EOF'
+          ssh -tt -o StrictHostKeyChecking=no ec2-user@13.209.155.172 << 'EOF'
             cd /home/ec2-user/node_app
 
             # 1. 의존성 설치
